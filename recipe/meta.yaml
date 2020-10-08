@@ -1,6 +1,6 @@
 {% set name = "google-cloud-securitycenter" %}
-{% set version = "0.5.0" %}
-{% set sha256 = "e2c14e01697e54aef9d755bd8abff01af748f42f4e3559efcbb3b0db659f66ac" %}
+{% set version = "1.0.0" %}
+{% set sha256 = "45d47a4389f2f19958a9db8e5c2f169c9b9385e74338fef0a4e49160153df7f7" %}
 
 package:
   name: {{ name|lower }}
@@ -37,11 +37,8 @@ about:
   license: Apache-2.0
   license_family: Apache
   license_file: LICENSE
-  summary: 'Cloud Security Command Center API client library'
-  description: Cloud Security Command Center API is a Google Cloud service that provides access to temporal
-    views of assets and findings within an organization.
-
-    See the [quick start guide](https://googleapis.dev/python/securitycenter/latest/index.html#quick-start).
+  summary: Cloud Security Command Center API client library
+  description: "Cloud Security Command Center API is a Google Cloud service that provides access to temporal views of assets and findings within an organization.\nSee the [quick start guide](https://googleapis.dev/python/securitycenter/latest/index.html#quick-start)."
 
   doc_url: https://googleapis.dev/python/securitycenter/latest/index.html
   dev_url: https://github.com/googleapis/python-securitycenter
