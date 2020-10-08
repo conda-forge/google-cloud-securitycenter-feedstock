@@ -5,9 +5,13 @@ Home: https://github.com/googleapis/python-securitycenter
 
 Package license: Apache-2.0
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/google-cloud-securitycenter-feedstock/blob/master/LICENSE.txt)
 
 Summary: Cloud Security Command Center API client library
+
+Development: https://github.com/googleapis/python-securitycenter
+
+Documentation: https://googleapis.dev/python/securitycenter/latest/index.html
 
 Cloud Security Command Center API is a Google Cloud service that provides access to temporal views of assets and findings within an organization.
 See the [quick start guide](https://googleapis.dev/python/securitycenter/latest/index.html#quick-start).
