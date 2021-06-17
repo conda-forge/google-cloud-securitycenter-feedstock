@@ -1,6 +1,6 @@
 {% set name = "google-cloud-securitycenter" %}
-{% set version = "0.6.0" %}
-{% set sha256 = "14ebad262cd01c9a3998561684617be2e97ad5d27dab1918c14b964f97e1f8f7" %}
+{% set version = "1.3.1" %}
+{% set sha256 = "872507adad97f452e0998730cd1993c0433c05a0757c268f5c02fbfabe7720d4" %}
 
 package:
   name: {{ name|lower }}
@@ -17,13 +17,14 @@ build:
 
 requirements:
   host:
-    - python
+    - python >=3.6
     - pip >=18.1
   run:
-    - python
-    - google-api-core-grpc >=1.14.0,<2.0.0dev
+    - python >=3.6
+    - google-api-core-grpc >=1.22.2,<2.0.0dev
     - grpc-google-iam-v1 >=0.12.3,<0.13.0dev
-    - enum34
+    - proto-plus >=1.10.0
+    - packaging >=14.3
 
 test:
   imports:
