@@ -1,6 +1,6 @@
 {% set name = "google-cloud-securitycenter" %}
-{% set version = "1.27.0" %}
-{% set sha256 = "00b7404fe0b92c14eb4805e4ea4a3d2a276eb4de53b9bfae7c30317d9b121ad9" %}
+{% set version = "1.28.0" %}
+{% set sha256 = "f34b32a96a0ad89f828ec0453ba2c912e17ea629891a9b9f8112ce6c748a700c" %}
 
 package:
   name: {{ name|lower }}
