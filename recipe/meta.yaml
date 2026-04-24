@@ -1,13 +1,13 @@
 {% set name = "google-cloud-securitycenter" %}
-{% set version = "1.34.0" %}
-{% set sha256 = "183be5ed6ea015eddcf0c1ed00eca3cc3c3f0723679311ded8d8e0be23f5d0b2" %}
+{% set version = "1.36.0" %}
+{% set sha256 = "cf943d49cc822df350941c96d318016fd5ed0cbc7f6599e08b03bc1546450802" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
   sha256: {{ sha256 }}
 
 build:
